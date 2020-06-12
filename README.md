@@ -13,11 +13,11 @@ git remote -v: kiểm tra liên kết link đúng chưa
 ## Push file
 ```
 1. Tạo file trong folder
-2. Kiểm tra file mới thêm vào: <b>git status<\b>
-3. Thêm tất cả các file project vào: git add . (git add --all)
-4. Tạo commit: git commit -m "nd commit"
-5. Kiểm tra commit thành công: git log (gitk: debug trước khi chạy)
-6. Đẩy lên git: git push origin master
+2. git status: Kiểm tra file mới thêm vào
+3. git add . (git add --all): thêm tất cả các file project vào:
+4. git commit -m "nd commit": tạo commit:
+5. git log (gitk: debug trước khi chạy): kiểm tra commit thành công: 
+6. git push origin master: đẩy lên git
 ```
 ## Restore file
  ```
@@ -26,4 +26,8 @@ git remote -v: kiểm tra liên kết link đúng chưa
 ## Quay lai phien ban truoc
 ```
 git reset --hard <commit_id>
+```
+## Pull
+```
+git pull <link gitHub>: lấy dự án về
 ```
