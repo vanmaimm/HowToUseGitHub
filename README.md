@@ -31,3 +31,4 @@ git reset --hard <commit_id>
 ```
 git pull <link gitHub>: lấy dự án về
 ```
+git push origin master -f: 
